@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Box Testing vs. White Box Testing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Black Box Testing vs. White Box Testing</h1>
+
+    <div class="section">
+        <h2>Black Box Testing</h2>
+        <ul>
+          <li><strong>Definition:</strong> Black-box testing focuses on the functionality of the software without any knowledge of the internal code or structure. It’s aimed at verifying that the application behaves as expected for different inputs and outputs.</li>
+          <li><strong>Tester's knowledge:</strong> Testers do not need access to the source code or an understanding of how the code is written.</li>
+          <li><strong>Techniques:</strong>
+                <ul>
+                    <li><strong>Equivalence Partitioning:</strong> Dividing input data into equivalent groups to reduce test cases.</li>
+                    <li><strong>Boundary Value Analysis:</strong> Testing at the boundaries of input ranges.</li>
+                    <li><strong>Decision Table Testing:</strong> Using tables to map combinations of inputs and expected outputs.</li>
+                </ul>   
+          <li><strong>Example:</strong> Testing a login feature by inputting valid and invalid credentials to check if the login function allows or denies access appropriately.</li>
+        </ul> 
+    </div>
+
+    <div class="section">
+        <h2>White Box Testing</h2>
+        <ul>
+          <li><strong>Definition:</strong> White-box testing, also known as clear-box or glass-box testing, involves testing the internal workings of an application. Testers have access to the source code and write tests based on the code's structure and logic.</li>
+          <li><strong>Tester's knowledge:</strong> Testers need to understand the code, architecture, and logic of the system to create test cases that cover various code paths.</li>
+          <li><strong>Techniques:</strong>
+                <ul>
+                    <li><strong>Path Testing:</strong> Testing each possible path in the code to ensure coverage.</li>
+                    <li><strong>Loop Testing:</strong> Testing loops within the code to prevent infinite loops and boundary issues.</li>
+                    <li><strong>Condition Testing:</strong> Testing different conditional statements and decision points.</li>
+                </ul>   
+          <li><strong>Examples:</strong> Unit testing, integration testing, and security testing often use white-box methods.</li>
+        </ul> 
+    </div>
+
+    <div class="section">
+        <h2>Summary of Differences</h2>
+        <ul>
+            <li><strong>Black-Box Testing</strong> is concerned with what the software does (functional behavior) without looking "inside" the system, while <strong>White-Box Testing</strong> is focused on how the software works (internal logic and code).</li>
+            <li><strong>Testers in Black-Box</strong> are generally end-users or QA teams, while <strong>Testers in White-Box</strong> are often developers or testers with coding knowledge.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
